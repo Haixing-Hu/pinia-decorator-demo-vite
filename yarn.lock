@@ -1503,14 +1503,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@haixing_hu/pinia-decorator@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@haixing_hu/pinia-decorator@npm:1.0.0"
+"@haixing_hu/pinia-decorator@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@haixing_hu/pinia-decorator@npm:1.2.1"
   peerDependencies:
-    "@haixing_hu/vue3-class-component": ^1.1.4
+    "@babel/runtime": ^7.23.2
+    "@haixing_hu/vue3-class-component": ^1.5.1
     pinia: ^2.0.0
     vue: ^3.0.0
-  checksum: 521eff3c777f7a3c2149b89ea4e1dd651599f2a631eb4a6f6e6967e7151c144824152be38cc77d101ce54dea9ee1bcaa39468556f8dd905176143cd8c18528cf
+  checksum: f010d1432a7dc691513935bb7eef2eb8b393257372a666534e02755a0f545907398b02a8332f6b93a0436d8bab2cf18fb02d1f845e85e7e1b7a5308138326191
   languageName: node
   linkType: hard
 
@@ -1523,12 +1524,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@haixing_hu/vue3-class-component@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "@haixing_hu/vue3-class-component@npm:1.1.4"
+"@haixing_hu/vue3-class-component@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "@haixing_hu/vue3-class-component@npm:1.5.1"
   peerDependencies:
+    "@babel/runtime": ^7.23.2
     vue: ^3.3.4
-  checksum: 996e266cfbb4dc2c4d7fdbdcd22cedd9bb16bbe46fbfd54f282050f00f7fe9d7fccbd1ee721ccc77846863b2506a18375cd60264b309173385acdb623c4ded7a
+  checksum: 0d5f074502e684dfd3579f4b8fe768adf43dfcb5d35486eb0cf52faa2b3b2931f66d46f51ce825b967b9e76e17856d529ab87b744a07d0b514c5593350eb4b28
   languageName: node
   linkType: hard
 
@@ -2861,9 +2863,9 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.22.15
     "@babel/preset-env": ^7.22.20
     "@babel/runtime": ^7.23.1
-    "@haixing_hu/pinia-decorator": ^1.0.0
+    "@haixing_hu/pinia-decorator": ^1.2.1
     "@haixing_hu/vite-plugin-babel": ^1.3.1
-    "@haixing_hu/vue3-class-component": ^1.1.4
+    "@haixing_hu/vue3-class-component": ^1.5.1
     "@vitejs/plugin-vue": ^4.4.0
     pinia: ^2.1.6
     vite: ^4.4.11
